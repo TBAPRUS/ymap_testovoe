@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  color: #222;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+#root {
+  display: flex;
+  height: 100vh;
+}
+#root #container {
+  margin: auto;
+}
+#root #container #load {
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+#root #container #load h1 {
+  margin: auto;
+}
+#root #container #window {
+  z-index: 1;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+#root #container #window #window-in {
+  background-color: white;
+  padding: 50px 30px;
+  margin: auto;
+}
+#root #container #window #window-in h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+#root #container #window #window-in p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+#root #container #window #window-in #answers {
+  display: flex;
+  justify-content: space-between;
+}
+#root #container #window #window-in #answers button {
+  font-size: 1.3em;
+}
+#root #container #description {
+  padding: 180px 140px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("./desc-bg.png");
+}
+#root #container #description #desc-info {
+  margin-right: 75px;
+  display: block;
+}
+#root #container #description #desc-info h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+#root #container #description #desc-info h2 {
+  font-size: 1.5em;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+#root #container #description #desc-info p {
+  font-size: 1.3em;
+  max-width: 250px;
+}
+#root #container #description .form {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+}
+#root #container #description .form h2 {
+  margin-bottom: 10px;
+}
+#root #container #description .form button:first-of-type {
+  margin-bottom: 5px;
+}
+#root #container #description .form button:last-of-type {
+  font-size: 1.05em;
+}
+#root #container #description .form input {
+  margin-bottom: 5px;
+}
+#root #container #logic {
+  display: flex;
+  padding: 20px;
+  background: linear-gradient(#75ff8a, #79dd88);
+}
+#root #container #logic #location-action {
+  display: block;
+}
+#root #container #logic #location-action #create #form h2,
+#root #container #logic #location-action #change #form h2 {
+  margin-bottom: 5px;
+}
+#root #container #logic #location-action #create button,
+#root #container #logic #location-action #change button {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  font-size: 1.1em;
+}
+#root #container #logic #location-action .location {
+  margin: 10px 0;
+}
+#root #container #logic #location-action .location .info {
+  cursor: pointer;
+}
+#root #container #logic #location-action .location .info h3 {
+  font-size: 1.5em;
+}
+#root #container #logic #location-action .location .info p {
+  font-size: 1.2em;
+}
+#root #container #logic #location-action .location .methods {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #113917;
+}
+#root #container #logic #location-action .location .methods button {
+  padding: 3px;
+}
+#root #container #logic #map {
+  margin-left: 50px;
+  width: 500px;
+  height: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */
